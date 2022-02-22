@@ -1,0 +1,197 @@
+
+:root {
+  --fundal: rgb(160, 210, 226);
+  --formfundal: rgb(1, 123, 172);
+  --darkfundal: rgb(30, 30, 116);
+}
+html {
+  background-color: var(--fundal);
+}
+.table-bordered {
+  border: 5px double orange !important;
+}
+.bookForm {
+  display: grid;
+  width: 400px;
+  border: solid black 4px;
+  border-radius: 20px;
+  margin: auto auto 40px;
+  padding: 20px;
+  background-color: var(--formfundal);
+  color: white;
+  align-content: center;
+}
+#bookName {
+  margin: 8px;
+}
+#bookAuthor {
+  margin: 8px;
+}
+#read {
+  margin: 8px;
+}
+#submit {
+  margin: 8px;
+  border: solid black 2px;
+  border-radius: 8px;
+}
+table {
+  width: 800px;
+  margin: 0px auto;
+  border: solid black 2px;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: solid 2px black;
+  padding: 4px;
+  background-color: var(--formfundal);
+  color: white;
+}
+th {
+  text-align: left;
+  background-color: var(--formfundal);
+  color: white;
+}
+#settings {
+  width: 200px;
+}
+#settings > * {
+  margin: 4px;
+  border: solid black 2px;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--darkfundal);
+  color: white;
+}
+.Header > p {
+  margin-left: 0px;
+  margin-right: auto;
+}
+.Footer {
+  text-align: center;
+  padding: 2px 0px 2px 0px;
+  margin-top: 20px;
+  background-color: var(--darkfundal);
+  color: white;
+}
+#logoHeader {
+  margin-right: 10px;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+}
+#footerLogo {
+  width: 20px;
+  height: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .bookForm,
+  table {
+    width: auto;
+    table-layout: fixed;
+  }
+  td {
+    word-break: break-all;
+  }
+}html {
+  background-color: var(--fundal);
+}
+.bookForm {
+  display: grid;
+  width: 400px;
+  border: solid black 4px;
+  border-radius: 20px;
+  margin: auto auto 40px;
+  padding: 20px;
+  background-color: var(--formfundal);
+  color: white;
+}
+#bookName {
+  margin: 8px;
+}
+#bookAuthor {
+  margin: 8px;
+}
+#read {
+  margin: 8px;
+}
+#submit {
+  margin: 8px;
+  border: solid black 2px;
+  border-radius: 8px;
+}
+table {
+  width: 800px;
+  margin: 0px auto;
+  border: solid black 2px;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: solid 2px black;
+  padding: 4px;
+  background-color: var(--formfundal);
+  color: white;
+}
+th {
+  text-align: left;
+  background-color: var(--formfundal);
+  color: white;
+}
+#settings {
+  width: 200px;
+}
+#settings > * {
+  margin: 4px;
+  border: solid black 2px;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--darkfundal);
+  color: white;
+}
+.Header > p {
+  margin-left: 0px;
+  margin-right: auto;
+}
+.Footer {
+  text-align: center;
+  padding: 2px 0px 2px 0px;
+  margin-top: 20px;
+  background-color: var(--darkfundal);
+  color: white;
+}
+#logoHeader {
+  margin-right: 10px;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+}
+#footerLogo {
+  width: 20px;
+  height: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .bookForm,
+  table {
+    width: auto;
+    table-layout: fixed;
+  }
+  td {
+    word-break: break-all;
+  }
+}
